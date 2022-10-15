@@ -46,7 +46,8 @@ body {
     height: 50px;
     width: 320px;
     border: 2px solid #24B670;
-    border-radius: 10px; 
+    border-radius: 10px;
+    outline: none;
 
     font-size: 20px;
     padding-left: 8px;
