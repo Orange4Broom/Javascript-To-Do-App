@@ -6,7 +6,7 @@ addButton.onclick = function() {
 
     //------Check if your tsak have some name------
 
-    if (taskName.value.length < 1) {
+    if (taskName.value.trim().length < 1) {
         alert('Give your task some name')
     }
     else {
