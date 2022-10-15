@@ -4,7 +4,7 @@ const taskName = document.getElementById('nameInput');
 
 addButton.onclick = function() {
 
-    //------Check if your tsak have some name------
+    //------Check if your task has some name------
 
     if (taskName.value.trim().length < 1) {
         alert('Give your task some name')
@@ -14,7 +14,7 @@ addButton.onclick = function() {
     //------Create task div with task name and delete button------
 
     document.getElementById('container').innerHTML += `
-    <di class="box">
+    <div class="box">
         <h2 id="header">${taskName.value}</h2>
         <button class="delete">
             <i class="far fa-trash-alt"></i>
