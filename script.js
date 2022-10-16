@@ -31,5 +31,6 @@ addButton.onclick = function() {
         }
     }
     }
-
+    //reset "taskName" value
+    taskName.value = '';
 };
